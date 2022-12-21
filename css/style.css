@@ -1,0 +1,270 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+html,body{
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0.6rem;
+
+}
+li
+{
+    margin-top: 0.9rem;
+}
+a
+{
+    color: inherit;
+    text-transform: none;
+    text-decoration: none;
+}
+section
+{
+    width: 100%;
+    height: inherit;
+
+}
+.wrapper
+{
+    min-height: 100%;
+    overflow: hidden;
+}
+.container
+{
+    max-width: 1480px;
+    min-height: 1px;
+    margin: 0 auto;
+    border: 0px solid black;
+}
+
+.underline
+{
+    border-bottom: 5px solid #043873 ;
+}
+
+/*Header start*/
+
+.header__items
+{
+    width: 100%;
+    /*border: 1px solid black;*/
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #043873;
+    color: white;
+    /*border-bottom: 6px solid #07448d;*/
+}
+.header__items-main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid red;*/
+    width: 75%;
+}
+.header__item-logo
+{
+    font-size: 28px;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+.header__item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid green;*/
+    width: 65%;
+}
+.header__item-text
+{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/*Header end*/
+
+/*Main content start*/
+
+.main__items
+{
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.header__padding
+{
+    padding: 200px 0 !important;
+}
+.main__item
+{
+    padding: 60px 0 200px 0 ;
+}
+.main__item__flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 20;
+}
+.main__item__flex-text
+{
+    max-width: 642px;
+    color: white;
+
+}
+.main__item__flex-text-main
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+
+
+}
+.main__item__flex-text-mini
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    margin: 24px 0 60px 0;
+    letter-spacing: -0.02em;
+}
+.main__item__flex-text-btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    color: white;
+    max-width: 30%;
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.main__item__block-text
+{
+    width: 100%;
+    padding-top: 80px ;
+
+}
+.main__item__block-text-main
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+
+}
+.main__item__block-text-mini
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    margin: 24px 0 60px 0;
+    letter-spacing: -0.02em;
+}
+.block-text-list
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.02em;
+
+}
+.block-text-list-item
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.02em;
+}
+
+.white_bgc
+{
+    color: black !important;
+
+}
+
+/* Main image start*/
+.main__item__flex-img
+{
+    order: 5;
+    position: relative;
+
+}
+
+.img
+{
+    max-width: 100%;
+}
+.img img
+{
+    max-width: 100%;
+}
+.svg__main
+{
+    position: absolute;
+    order: 1;
+    left: 0;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+    
+}
+/* Main image end*/
+
+/* ID start*/
+
+#link__0
+{
+    background-color: #043873;
+    height: 100%;
+    order: 0;
+}
+
+/* ID end*/
+
+/* ::Header start*/
+
+.header__item-text:hover
+{
+    text-decoration: underline;
+}
+
+/* ::Header end*/
+
+/* ::Main start*/
