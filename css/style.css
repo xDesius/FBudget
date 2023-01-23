@@ -372,12 +372,15 @@ section
     letter-spacing: -0.02em;
 
     color: #F7F7EE;
+
 }
+
 .down
 {
     margin-top: 4rem;
     color: white;
     font-size: 24px;
+    border-top: 1px solid white;
 }
 /*Footer end*/
 
@@ -432,3 +435,12 @@ section
 /* ::Header end*/
 
 /* ::Main start*/
+
+@media (max-width:1440px)
+{
+    .main__item__flex-card-items{
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
